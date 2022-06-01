@@ -1,5 +1,5 @@
 .imagem2{
-    background-image: url(Formula1.jpg);
+    background-image: url('../../assets/Formula1.jpg');
     background-repeat: no-repeat; 
     width: 100vh; 
     min-height: 100vh; 

@@ -28,7 +28,7 @@ function Login() {
 
             useEffect(() =>{
                 if (token !== ""){
-                    history.push("/home")
+                    history("/home")
                 }
             }, [token])
 
