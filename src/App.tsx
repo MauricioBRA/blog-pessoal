@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './componets/estaticos/navbar/Navbar';
 import Footer from './componets/estaticos/footer/Footer';
+import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
 import Home from "./paginas/home/Home";
 import Login from "./paginas/login/Login";
 import './App.css';
