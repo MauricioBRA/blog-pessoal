@@ -72,7 +72,7 @@ function CadastroUsuario() {
                             name="nome" margin="normal" fullWidth />
 
                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
-                            type="email" id="usuario" label="susuario" variant="outlined"
+                            type="email" id="usuario" label="usuario" variant="outlined"
                             name="usuario" margin="normal" fullWidth required />
 
                         <TextField
