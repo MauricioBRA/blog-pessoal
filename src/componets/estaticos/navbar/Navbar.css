@@ -1,8 +1,12 @@
 .cursor{
     cursor: pointer;
-    color: white;
+    color: #f5eded;
 }
 
 .text-decorator-none{
     text-decoration: none;
+}
+
+.box1{
+    background-color: #0e101b;
 }
