@@ -41,14 +41,16 @@ function DeletarTema() {
   }, [id])
 
   async function findById(id: string) {
-    buscaId(`/tema/${id}`, setTema, {
+    buscaId(`/temas/${id}`, setTema, {
+     headers: {
       "Authorization": token
+    }
     })
   }
 
   function sim() {
     history('/temas')
-    deletId(`/tema/${id}`, {
+    deletId(`/temas/${id}`, {
       headers: {
         'Authorization': token
       }
